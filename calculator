@@ -1,0 +1,17 @@
+a = float (input('enter the first number >>'))
+b = float (input('enter the second number >>'))
+operation = input ('enter arithmetic sign >>')
+
+resultat = None
+if operation == '+':
+    resultat = a + b
+elif operation == '-':
+    resultat = a - b
+elif operation == '*':
+    resultat = a * b
+elif operation == '/':
+    resultat = a / b
+else:
+    print ('Error!')
+if resultat is not None:
+    print(resultat)
