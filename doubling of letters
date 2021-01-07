@@ -1,0 +1,5 @@
+for a in input ('enter the word: ') :
+    if a== '':
+        print('', end = '')
+    else:
+        print(a * 2, end = '')
